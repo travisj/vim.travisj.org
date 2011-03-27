@@ -5,3 +5,6 @@ site
 .sass-cache
 test
 source/_stash
+*.un~
+*.swp
+Gemfile.lock

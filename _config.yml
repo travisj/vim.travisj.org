@@ -3,9 +3,9 @@ destination: site
 markdown: rdiscount
 pygments: true
 permalink: /blog/:year/:month/:day/:title
-url: http://yoursite.com
+url: http://vim.travisj.org
 multiviews: true
-sass: false
+sass: true
 haml: true
 post_defaults:
   layout: blog_post

@@ -10,7 +10,7 @@ delicious_user: travisj
 delicious_count: 3
 
 full_url: http://vim.travisj.org
-disqus_short_name: 
+disqus_short_name: giveemvim
 
 google_custom_search_id:
 google_analytics_tracking_id:
@@ -26,7 +26,8 @@ google_analytics_tracking_id:
         %a.menu(href="/feed") Feed
         %a.menu(href="/about.html") About
         %a.menu(href="/archives.html") Archive
-      %h1= page.blog_title
+      %h1
+        %a(href="/")= page.blog_title
     #content
       #bar
         %div.bar-section

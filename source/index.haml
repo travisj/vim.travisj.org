@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 author: 
-disqus: 
+disqus: true
 ---
 .blog
   - site.posts.sort_by(&:date).reverse[0..9].each_with_index do |post,index|
@@ -18,5 +18,3 @@ disqus:
           %em.comments_off Comments disabled
         - else
           %a(href="#{post.url}/#disqus_thread")Comments
-  .footer
-    %a(href="/archives.html" title="archives") &laquo; Blog Archives
